@@ -14,7 +14,11 @@ public:
         else{
             Monom* tmp = _head;
             while (tmp->Next != nullptr){
-                if (tmp->IsPowersEqual(*monom)) {tmp = &(*tmp + *monom);return;}
+                if (tmp->IsPowersEqual(*monom)) {
+                    Monom left = *tmp;
+                    Monom right = *monom;
+                    Monom res = left + right;
+                    tmp = &res;return;}
                 tmp = tmp->Next;
             }
             tmp->Next = monom;

@@ -3,6 +3,7 @@
 
 CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
   /usr/include/stdc-predef.h \
+  ../Polynom.h \
   ../Monom.h \
   /usr/include/c++/12/iostream \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
@@ -266,6 +267,8 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/12/bits/alloc_traits.h:
 
+/usr/include/c++/12/ext/alloc_traits.h:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/c++/12/bits/hash_bytes.h:
@@ -324,12 +327,6 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h:
 
-/usr/include/c++/12/ext/alloc_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
 ../Monom.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
@@ -337,6 +334,28 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 ../main.cpp:
 
 /usr/include/c++/12/ostream:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/c++/12/algorithm:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/12/istream:
+
+/usr/include/c++/12/stdexcept:
+
+/usr/include/c++/12/cctype:
+
+/usr/include/features-time64.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/c++/12/iosfwd:
 
 /usr/include/c++/12/type_traits:
 
@@ -346,23 +365,15 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h:
 
+/usr/include/c++/12/bits/move.h:
+
+/usr/include/stdc-predef.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h:
 
 /usr/include/c++/12/clocale:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/c++/12/bits/locale_classes.tcc:
-
-/usr/include/c++/12/bits/exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/c++/12/bits/ptr_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -388,35 +399,29 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/12/debug/assertions.h:
 
-/usr/include/c++/12/algorithm:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/c++/12/bits/move.h:
-
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/c++/12/bits/stringfwd.h:
 
+../Polynom.h:
+
+/usr/include/c++/12/ext/numeric_traits.h:
+
 /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/c++/12/bits/locale_classes.tcc:
+
+/usr/include/c++/12/bits/exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/c++/12/bits/ptr_traits.h:
+
 /usr/include/c++/12/ios:
-
-/usr/include/c++/12/istream:
-
-/usr/include/c++/12/stdexcept:
-
-/usr/include/c++/12/cctype:
-
-/usr/include/features-time64.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/c++/12/iosfwd:
 
 /usr/include/c++/12/bits/memoryfwd.h:
 
@@ -541,8 +546,6 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/12/debug/debug.h:
 
 /usr/include/c++/12/bits/stl_function.h:
-
-/usr/include/c++/12/ext/numeric_traits.h:
 
 /usr/include/c++/12/cerrno:
 
