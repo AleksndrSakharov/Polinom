@@ -11,7 +11,7 @@ private:
     size_t _size;
     int* _powers;
 public:
-    Monom* Next;
+    Monom* Next = nullptr;
     Monom() : _coef(0), _size(1), _powers(new int[_size]){}
     Monom(double coef, size_t size) : _coef(coef), _size(size){
         _powers = new int[size];
